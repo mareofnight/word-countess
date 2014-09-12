@@ -1,0 +1,76 @@
+<link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons.css">
+<!-- The CSS package above applies Google styling to buttons and other elements. -->
+<style>
+div.wc-sidebar {
+  height: 100%;
+}
+
+table {
+  width: 100%;
+}
+table tr.th td {
+  border-bottom-color:#ACACAC;
+}
+
+footer {
+  font-size: .9em;
+  /* make this align bottom */
+}
+</style>
+
+<div class="wc-sidebar">
+  <form>
+    <div id="wc-project">
+      <h2>Project</h2><!-- changes to show project name -->
+      <input type="button" value="Add to project" /><!-- is blue -->
+      <!--<input type="button" value="Change project" />-->
+    </div>
+    <div id="wc-counts">
+      <h2>Word counts</h2>
+      <table>
+        <tr class="th">
+          <td></td>
+          <td>Project</td>
+          <td>Document</td>
+        </tr>
+        <tr>
+          <td>Pages</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Words</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Characters</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <div id="wc-goal">
+      <h2>Goal</h2>
+      <div>123 of 123 words</div>
+      <p>Write 123 words per day to meet your goal by November 30.</p>
+      <input type="button" value="Change goal" />
+    </div>
+    <div id="wc-timed">
+      <h2>Timed challenge</h2>
+      <div><span>123/123</span><span>09:34</span></div><!-- is colored and/or bigger -->
+      <input type="button" value="Stop challenge" />
+      <!-- should there be a pause button?-->
+    </div>
+  </form>
+  <footer>
+    <div>&copy; Kim Desorcie <script>document.write(new Date().getFullYear());</script></div>
+    <div>Have a suggestion to improve Word Countess? <a href="#">Please tell me!</a></div>
+  </footer>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+</script>
+<script>
+/* scripty things go in here */
+</script>
